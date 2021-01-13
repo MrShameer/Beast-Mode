@@ -100,7 +100,7 @@ public class GetStartedActivity extends AppCompatActivity {
 
                             if (task.isSuccessful()) {
                                 
-
+                               // mFirebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
                                 Intent intent = new Intent(GetStartedActivity.this, ExplorerMainActivity.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);

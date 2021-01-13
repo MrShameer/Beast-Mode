@@ -53,6 +53,8 @@ public class SignInActivity extends AppCompatActivity {
                     AlertDialog dialog = builder.create();
                     dialog.show();
 
+                    //etEmail.setError("fdgfdgdfgdfgdfgdf");
+
 
                 }
                 else {
